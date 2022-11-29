@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Tahsin Hasan Turab\\Desktop\\Training\\varsity project\\Book_Library\\Library\\Library.Infrastructure\\Library.Infrastructure.csproj": {}
+    "C:\\Users\\Tahsin Hasan Turab\\Desktop\\Training\\varsity project\\Book_Library\\src\\Library\\Library.Infrastructure\\Library.Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Tahsin Hasan Turab\\Desktop\\Training\\varsity project\\Book_Library\\Library\\Library.Infrastructure\\Library.Infrastructure.csproj": {
+    "C:\\Users\\Tahsin Hasan Turab\\Desktop\\Training\\varsity project\\Book_Library\\src\\Library\\Library.Infrastructure\\Library.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Tahsin Hasan Turab\\Desktop\\Training\\varsity project\\Book_Library\\Library\\Library.Infrastructure\\Library.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\Tahsin Hasan Turab\\Desktop\\Training\\varsity project\\Book_Library\\src\\Library\\Library.Infrastructure\\Library.Infrastructure.csproj",
         "projectName": "Library.Infrastructure",
-        "projectPath": "C:\\Users\\Tahsin Hasan Turab\\Desktop\\Training\\varsity project\\Book_Library\\Library\\Library.Infrastructure\\Library.Infrastructure.csproj",
+        "projectPath": "C:\\Users\\Tahsin Hasan Turab\\Desktop\\Training\\varsity project\\Book_Library\\src\\Library\\Library.Infrastructure\\Library.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\Tahsin Hasan Turab\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Tahsin Hasan Turab\\Desktop\\Training\\varsity project\\Book_Library\\Library\\Library.Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\Tahsin Hasan Turab\\Desktop\\Training\\varsity project\\Book_Library\\src\\Library\\Library.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Tahsin Hasan Turab\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,36 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Autofac.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "System.Linq.Dynamic.Core": {
+              "target": "Package",
+              "version": "[1.2.23, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
